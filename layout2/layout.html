@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Layout2</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+        <script src="jquery-1.12.0.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		var count=0;
+		$("#menu-btn").click(function(e){
+			e.preventDefault();
+			if(count==0){
+				$(".menu2").css("display","block");
+				$(".menu1").css("height","20px");
+				count++;
+			}
+			else{
+				$(".menu2").css("display","none");
+				$(".menu1").css("height","10px");
+				count=0;
+			}
+			
+		});
+	});
+	</script>
+        
+        
+        
+        
+        
+        
+        
+</head>
+<body>
+<div class="header">
+	<div class="container">
+            <div >
+			<a href="#" id="menu-btn"><img src="images.png"></a>
+            </div>
+            
+            <div class="menu1">
+		<ul>
+			<li><a href=""><b>Layout 1</b></a></li>
+			<li><a href="">About</a></li>
+			<li><a href="">Service</a></li>
+			<li><a href="">Contact</a></li>
+			
+		</ul>
+                </div>
+            <div class="menu2">
+                <ul >
+			<li><a href=""><b>Layout 1</b></a></li>
+			<li><a href="">About</a></li>
+			<li><a href="">Service</a></li>
+			<li><a href="">Contact</a></li>
+			
+		</ul>
+                
+                
+            </div>
+            
+    </div>
+</div>
+
+<div class="container">
+	<div class="simple">
+		<div class="sm-content">
+		<h2>Sample Heading</h2>
+		<p>Lorem Ipsum is simply dummy text of 
+                                    the printing and typesetting industry. 
+                                    Lorem Ipsum has been the industry's
+                                    standard dummy text ever since the 1500s. </p>
+		
+		<input type="submit" name="submit" value="Call to action!" class="btn">
+		</div>
+	</div>
+</div>
+
+<div class="clear"></div>
+
+<div class="container">
+
+	<div class="hrs">
+	  <hr></hr>
+	</div>
+
+</div>
+
+<div class="container">
+
+<h3>Latest Features</h3>
+<div class="feature">
+	<div class="image"> <img src="http://placehold.it/800x500"></div>
+	<div class="freture-cont">
+		<h3>Feature Lable</h3>
+		
+		<p>Lorem Ipsum is simply dummy text of 
+                                    industry.</p>
+		
+				<input class="buy" type="submit" value="Buy now" name="submit">
+		<input class="info" type="submit" value="More Info" name="submit">
+		
+	</div>
+</div>
+
+<div id="f2" class="feature">
+	<div class="image"><img src="http://placehold.it/800x500"></div>
+	<div class="freture-cont">
+		<h3>Feature Lable</h3>
+		
+		<p>Lorem Ipsum is simply dummy text of 
+                                    industry.</p>
+		
+				<input class="buy" type="submit" value="Buy now" name="submit">
+		<input class="info" type="submit" value="More Info" name="submit">
+		
+	</div>
+</div>
+
+<div id="f3"  class="feature">
+	<div class="image"><img src="http://placehold.it/800x500"></div>
+	<div class="freture-cont">
+		<h3>Feature Lable</h3>
+		
+		<p>Lorem Ipsum is simply dummy text of 
+                                    industry.</p>
+		
+				<input class="buy" type="submit" value="Buy now" name="submit">
+		<input class="info" type="submit" value="More Info" name="submit">
+		
+	</div>
+</div>
+
+<div class="feature4">
+	<div class="image"><img src="http://placehold.it/800x500"></div>
+	<div class="freture-cont">
+		<h3>Feature Lable</h3>
+		
+		<p>Lorem Ipsum is simply dummy text of 
+                                    industry. </p>
+		
+		<input class="buy" type="submit" value="Buy now" name="submit">
+		<input class="info" type="submit" value="More Info" name="submit">
+	</div>
+</div>
+
+
+</div>
+
+<div class="clear"></div>
+
+<div class="container">
+
+	<div class="hrs">
+	  <hr>
+	</div>
+
+</div>
+
+
+<div class="footer">
+<span>copyright&copy;your website</span>
+</div>
+</body>
+</html>

@@ -1,0 +1,744 @@
+
+
+body {
+    font-family: sans-serif;
+    margin: 0 auto;
+}
+
+
+.header {
+    background: black none repeat scroll 0 0;
+    margin: 0 auto;
+    width: 100%;
+}
+.sm-content > h2 {
+    font-size: 37px;
+}
+#menu-btn {
+    display: none;
+}
+.container {
+    margin: 0 auto;
+    width: 90%;
+}
+
+
+.menu2 {
+    display: none;
+}
+
+ul {
+    color: white;
+    display: inline-flex;
+    list-style: outside none none;
+}
+
+li {
+    color: #eeeeee;
+    font-size: 19px;
+    padding-right: 24px;
+}
+
+li a {
+    color: hsl(0, 0%, 66%);
+    text-decoration: none;
+}
+
+
+.simple {
+    background: #eeeeee none repeat scroll 0 0;
+    border-radius: 7px;
+    margin-top: 70px;
+}
+
+
+.simple h1 {
+    color: #616161;
+  
+    font-size: 66px;
+    margin: 34px 0 0;
+}
+
+
+.sm-content {
+    padding: 4px 7px 20px 65px;
+}
+
+
+
+.sm-content p {
+    font-size: 21px;
+    width: 90%;
+}
+
+
+.btn {
+    background: none repeat scroll 0 0 hsl(208, 56%, 53%);
+    border: medium none;
+    border-radius: 4px;
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    padding: 9px;
+    width: 10%;
+     cursor: pointer;
+}
+.clear{
+clear:both;
+}
+
+
+hr {
+    color: #ffffff;
+}
+
+
+.hrs {
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+
+
+
+.footer {
+    margin: 0 auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 90%;
+}
+
+
+.feature {
+    border: 1px solid hsl(0, 0%, 87%);
+    border-radius: 4px;
+    float: left;
+    margin-right: 17px;
+    padding: 11px;
+    text-align: center;
+    width: 22%;
+}
+
+.feature4 {
+  border: 1px solid #dddddd;
+      border-radius: 4px;
+    float: left;
+    padding: 11px;
+    text-align: center;
+    width: 21%;
+}
+
+
+.image {
+    background: #cccccc none repeat scroll 0 0;
+    height: 147px;
+}
+
+.image img {
+    width: 100%;
+}
+
+
+.buy {
+    background: none repeat scroll 0 0 hsl(208, 56%, 53%);
+    border: medium none;
+    border-radius: 4px !important;
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    padding: 7px !important;
+    width: 88px;
+        cursor: pointer;
+}
+
+
+.info {
+    background: none repeat scroll 0 0 hsl(0, 0%, 100%);
+    border: 1px solid hsl(0, 0%, 61%);
+    border-radius: 4px;
+    color: hsl(0, 0%, 0%);
+    font-size: 15px;
+    padding: 6px;
+    width: 86px;
+        cursor: pointer;
+}
+
+@media(max-width:480px){
+
+   
+.sm-content > h2 {
+    font-size: 22px;
+}
+
+.sm-content p {
+    font-size: 16px;
+    width: 90%;
+}
+    
+    
+.simple h1 {
+    color: #616161;
+    font-family: Trebuchet MS;
+    font-size: 66px;
+    margin: 34px 0 0;
+}
+
+.sm-content {
+    padding: 3px 7px 15px 23px;
+}
+
+
+.simple h1 {
+    color: #616161;
+    font-family: Trebuchet MS;
+    font-size: 25px;
+    margin: 23px 0 0;
+}
+.feature{
+width:100%;
+margin-bottom: 10px;
+padding: 0 0 17px;
+}
+
+.feature4{
+width:100%;
+margin-bottom: 10px;
+padding: 0 0 17px;
+}
+
+
+.freture-cont {
+    margin-top: 30%;
+    width: 96%;
+}
+
+#menu-btn > img {
+   
+    width: 13%;
+}
+
+.menu1 > ul {
+    display: none;
+}
+
+ul {
+    color: hsl(0, 0%, 100%);
+    display: inline-flex;
+    list-style: none outside none;
+    margin-top: -16px;
+    width: 120%;
+}
+
+li a {
+    color: hsl(0, 0%, 100%);
+    font-size: 12px;
+    text-decoration: none;
+}
+
+li {
+    color: hsl(0, 0%, 93%);
+    font-size: 19px;
+    padding-right: 12px;
+}
+
+#menu-btn {
+    display: block;
+}
+
+.btn {
+    background: none repeat scroll 0 0 hsl(208, 56%, 53%);
+    border: medium none;
+    border-radius: 5px;
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    padding: 10px;
+    width: 45%;
+        cursor: pointer;
+}
+
+.buy {
+    background: none repeat scroll 0 0 hsl(208, 56%, 53%);
+    border: medium none;
+    border-radius: 4px;
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    padding: 8px;
+    width: 96px;
+        cursor: pointer;
+}
+
+.info {
+    background: none repeat scroll 0 0 hsl(0, 0%, 100%);
+    border: 1px solid hsl(0, 0%, 67%);
+    border-radius: 4px;
+    color: hsl(0, 0%, 0%);
+    font-size: 15px;
+    padding: 7px;
+    width: 96px;
+        cursor: pointer;
+}
+}
+
+
+@media (min-width: 481px) and (max-width: 600px){
+
+    
+    
+    
+ .sm-content > h2 {
+    font-size: 25px;
+}
+    
+
+.sm-content p {
+    font-size: 17px;
+    width: 90%;
+}
+    
+    
+    
+.menu1 > ul {
+    display: none;
+}
+
+
+#menu-btn > img {
+    margin-left: -5%;
+    margin-top: 2px;
+    width: 9%;
+}
+
+#f2 {
+    margin-right: 0;
+}
+
+
+
+.feature {
+    border: 1px solid hsl(0, 0%, 87%);
+    border-radius: 4px;
+    float: left;
+    margin-right: 4.7%;
+    margin-top: 4px;
+    padding: 11px;
+    text-align: center;
+    width: 42% !important;
+}
+
+.feature4 {
+    border: 1px solid hsl(0, 0%, 87%);
+    border-radius: 4px;
+    float: left;
+    padding: 11px;
+    text-align: center;
+    width: 42% !important;
+    margin-top: 4px;
+}
+#menu-btn {
+    display: block;
+}
+  
+
+li {
+    color: hsl(0, 0%, 93%);
+    font-size: 14px;
+    padding-right: 38px;
+}
+
+.buy {
+    background: none repeat scroll 0 0 hsl(208, 56%, 53%);
+    border: medium none;
+    border-radius: 4px;
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    padding: 6px;
+    width: 74px;
+        cursor: pointer;
+}
+
+
+
+.btn {
+    background: none repeat scroll 0 0 hsl(208, 56%, 53%);
+    border: medium none;
+    border-radius: 4px;
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    padding: 9px;
+    width: 26%;
+        cursor: pointer;
+}
+
+.info {
+    background: none repeat scroll 0 0 hsl(0, 0%, 100%);
+    border: 1px solid hsl(0, 0%, 61%);
+    border-radius: 4px;
+    color: hsl(0, 0%, 0%);
+    font-size: 15px;
+    padding: 5px;
+    width: 96px;
+        cursor: pointer;
+}
+}
+
+@media (min-width: 601px) and (max-width:768px){
+	
+
+#f2 {
+    margin-right: 0;
+}
+
+.sm-content > h2 {
+    font-size: 25px;
+}
+
+.sm-content p {
+    font-size: 17px;
+    width: 90%;
+}
+
+
+
+.feature {
+    border: 1px solid hsl(0, 0%, 87%);
+    border-radius: 4px;
+    float: left;
+    margin-right: 5.1%;
+    margin-top: 1%;
+    padding-bottom: 11px;
+    padding-left: 11px;
+    padding-right: 11px;
+    text-align: center;
+    width: 43% !important;
+}
+.feature4 {
+    border: 1px solid hsl(0, 0%, 87%);
+    border-radius: 4px;
+      margin-top: 1%;
+    float: left;
+    padding: 11px;
+    text-align: center;
+    width:43% !important;
+}
+
+
+.freture-cont {
+    margin-top: 46px;
+}
+
+
+.btn {
+    background: none repeat scroll 0 0 hsl(208, 56%, 53%);
+    border: medium none;
+    border-radius: 4px;
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    padding: 9px;
+    width: 24%;
+        cursor: pointer;
+}
+
+.buy {
+    background: none repeat scroll 0 0 hsl(208, 56%, 53%);
+    border: medium none;
+    border-radius: 4px;
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    padding: 6px;
+    width: 96px;
+        cursor: pointer;
+}
+.info {
+    background: none repeat scroll 0 0 hsl(0, 0%, 100%);
+    border: 1px solid hsl(0, 0%, 61%);
+    border-radius: 4px;
+    color: hsl(0, 0%, 0%);
+    font-size: 15px;
+    padding: 6px;
+    width: 96px;
+        cursor: pointer;
+}
+    
+}
+@media (min-width: 769px) and (max-width:850px){
+  
+    
+    
+    
+.sm-content > h2 {
+    font-size: 26px;
+}
+
+.sm-content p {
+    font-size: 18px;
+    width: 90%;
+}
+   
+#f3 {
+    margin-right: 0;
+} 
+
+.btn {
+    background: none repeat scroll 0 0 hsl(208, 56%, 53%);
+    border: medium none;
+    border-radius: 4px;
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    padding: 9px;
+    width: 18%;
+        cursor: pointer;
+}
+
+
+
+.feature {
+    border: 1px solid hsl(0, 0%, 87%);
+    border-radius: 4px;
+    float: left;
+    margin-right: 1.99%;
+    padding: 11px;
+    text-align: center;
+    width: 28.5% !important;
+}
+.feature4 {
+    border: 1px solid hsl(0, 0%, 87%);
+    border-radius: 4px;
+    float: left;
+    margin-right: 21px;
+    padding: 11px;
+    text-align: center;
+     margin-top: 4px;
+    width: 28.5%!important;
+}
+
+
+.buy {
+    background: none repeat scroll 0 0 hsl(208, 56%, 53%);
+    border: medium none;
+    border-radius: 4px;
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    padding: 6px;
+    width: 79px;
+        cursor: pointer;
+}
+
+.info {
+    background: none repeat scroll 0 0 hsl(0, 0%, 100%);
+    border: 1px solid hsl(0, 0%, 61%);
+    border-radius: 4px;
+    color: hsl(0, 0%, 0%);
+    font-size: 15px;
+    padding: 5px;
+    width: 96px;
+        cursor: pointer;
+}
+}
+@media (min-width: 851px) and (max-width:950px){
+    
+
+.btn {
+    background: none repeat scroll 0 0 hsl(208, 56%, 53%);
+    border: medium none;
+    border-radius: 4px;
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    padding: 9px;
+    width: 18%;
+        cursor: pointer;
+}
+
+
+
+
+.feature {
+    border: 1px solid hsl(0, 0%, 87%);
+    border-radius: 4px;
+    float: left;
+    margin-right: 1%;
+    padding: 11px;
+    text-align: center;
+    width: 21% !important;
+}
+.feature4 {
+    border: 1px solid hsl(0, 0%, 87%);
+    border-radius: 4px;
+    float: right;
+   
+    padding: 11px;
+    text-align: center;
+    width: 21% !important;
+}
+
+
+.buy {
+    background: none repeat scroll 0 0 hsl(208, 56%, 53%);
+    border: medium none;
+    border-radius: 4px;
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    padding: 6px;
+    width: 68px;
+        cursor: pointer;
+}
+
+.info {
+    background: none repeat scroll 0 0 hsl(0, 0%, 100%);
+    border: 1px solid hsl(0, 0%, 61%);
+    border-radius: 4px;
+    color: hsl(0, 0%, 0%);
+    font-size: 15px;
+    padding: 6px;
+    width: 75px;
+        cursor: pointer;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 951px) and (max-width:1024px){
+    
+ 
+.btn {
+    background: none repeat scroll 0 0 hsl(208, 56%, 53%);
+    border: medium none;
+    border-radius: 4px;
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    padding: 9px;
+    width: 16%;
+        cursor: pointer;
+}   
+
+
+.feature {
+    border: 1px solid hsl(0, 0%, 87%);
+    border-radius: 4px;
+    float: left;
+    margin-right: 1.5%;
+    padding: 11px;
+    text-align: center;
+    width: 21% !important;
+}
+
+
+
+.feature4 {
+    border: 1px solid hsl(0, 0%, 87%);
+    border-radius: 4px;
+    float: right;
+    padding: 11px;
+    text-align: center;
+    width: 21% !important;
+}
+
+.buy {
+    background: none repeat scroll 0 0 hsl(208, 56%, 53%);
+    border: medium none;
+    border-radius: 4px;
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    padding: 6px;
+    width: 66px;
+        cursor: pointer;
+}
+
+
+.info {
+    background: none repeat scroll 0 0 hsl(0, 0%, 100%);
+    border: 1px solid hsl(0, 0%, 61%);
+    border-radius: 4px;
+    color: hsl(0, 0%, 0%);
+    font-size: 15px;
+    padding: 6px;
+    width: 78px;
+        cursor: pointer;
+}
+
+    
+    
+    
+}
+
+@media (min-width: 1025px) and (max-width:1299px){
+
+
+.btn {
+    background: none repeat scroll 0 0 hsl(208, 56%, 53%);
+    border: medium none;
+    border-radius: 4px;
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    padding: 9px;
+    width: 14%;
+        cursor: pointer;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+.buy {
+    background: none repeat scroll 0 0 hsl(208, 56%, 53%);
+    border: medium none;
+    border-radius: 4px  !important;;
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    padding: 6px  !important;;
+    width: 80px  !important;;
+}
+
+
+.info {
+    background: none repeat scroll 0 0 hsl(0, 0%, 100%);
+    border: 1px solid hsl(0, 0%, 61%);
+    border-radius: 4px;
+    color: hsl(0, 0%, 0%);
+    font-size: 15px;
+    padding: 6px;
+    width: 39%;
+}
+    
+
+.feature {
+    border: 1px solid hsl(0, 0%, 87%);
+    border-radius: 4px;
+    float: left;
+    margin-right: 3.4%;
+    padding: 11px;
+    text-align: center;
+    width: 19.8%;
+}
+
+.feature4 {
+    border: 1px solid hsl(0, 0%, 87%);
+    border-radius: 4px;
+    float: right;
+    padding: 11px;
+    text-align: center;
+    width: 19.8%;
+}
+
+.buy {
+    background: none repeat scroll 0 0 hsl(208, 56%, 53%);
+    border-radius: 7px;
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    padding: 4px;
+    width: 80px;
+     border: medium none;
+     
+}
+
+}
