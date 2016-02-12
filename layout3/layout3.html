@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Layout2</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+        <script src="jquery-1.12.0.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		var count=0;
+		$("#menu-btn").click(function(e){
+			e.preventDefault();
+			if(count==0){
+				$(".menu2").css("display","block");
+				$(".menu1").css("height","20px");
+				count++;
+			}
+			else{
+				$(".menu2").css("display","none");
+				$(".menu1").css("height","10px");
+				count=0;
+			}
+			
+		});
+	});
+	</script>
+        
+        
+        
+        
+        
+        
+        
+</head>
+<body>
+<div class="header">
+	<div class="container1">
+            <div >
+			<a href="#" id="menu-btn"><img src="images.png"></a>
+            </div>
+            
+            <div class="menu1">
+		<ul>
+			<li><a href=""><b>Layout 1</b></a></li>
+			<li><a href="">About</a></li>
+			<li><a href="">Service</a></li>
+			<li><a href="">Contact</a></li>
+			
+		</ul>
+                </div>
+            <div class="menu2">
+                <ul >
+			<li><a href=""><b>Layout 1</b></a></li>
+			<li><a href="">About</a></li>
+			<li><a href="">Service</a></li>
+			<li><a href="">Contact</a></li>
+			
+		</ul>
+                
+                
+            </div>
+            
+    </div>
+</div>
+<div class="clear">
+                
+                  </div> 
+<div class="container">
+	<div class="simple">
+                <div class="title"><p>Blog Post Title</p></div>
+                 <div class="sub-title"><p>by  <a href="">Test</a></p></div>
+               
+                 <div class="hrs">
+                    <hr></hr>
+                  </div>  
+                 
+                  <div class="watch">
+                  <p> <span><img src="watch.jpeg"><img></span> Posted on August 24,20013 at 9:30 PM</p>
+                  </div> 
+                 
+                  <div class="hrs">
+                    <hr></hr>
+                  </div> 
+                 <div class="main-image">
+                 <img src="http://placehold.it/900x300"></img>
+                  </div>
+                 
+                  
+                  <div class="hrs">
+                    <hr></hr>
+                  </div> 
+                  <div class="main-content">
+                         <div class="content1">
+                            <p>    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
+                         </div>
+                           <div class="content2">
+                                  <p>    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                                      <p>    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                                        <p>    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                           
+                           </div>
+                  </div>
+                 
+                 
+                 
+	</div>
+    
+    
+         <div class="side">
+                  <div class="side-top">
+                      <p>Blog Search</p>
+                      
+                      <div class="search"> <input type="text" name="search"></input></div>
+                         <div class="search-icon"> <a href="#" id=""><img src="index.png"><img></a>
+                            </div>
+                      
+                    </div>
+             
+             
+                     <div class="side-bottom ">
+                      <p>Blog categories</p>
+              
+                         <div class="link">
+                                 <a href="#" id=""> Categories Name</a>
+                                 <a href="#" id=""> Categories Name</a>
+                                 <a href="#" id=""> Categories Name</a>
+                                 <a href="#" id=""> Categories Name</a>
+                      </div>
+                      
+                         <div class="link2">
+                                 <a href="#" id=""> Categories Name</a>
+                                 <a href="#" id=""> Categories Name</a>
+                                 <a href="#" id=""> Categories Name</a>
+                               
+                      </div>
+            
+                      
+                    </div>
+             
+                    <div class="side-last ">
+                      <p>Side Widget Will</p>
+              
+                      
+                      
+                         <div class="side-text">
+                              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
+                                  industry's standard dummy text ever since the 1500s,</p> 
+                               
+                      </div>
+            
+                      
+                    </div>
+             
+             
+             
+             
+	</div>
+</div>
+     <div class="clear">
+                
+                  </div> 
+<div class="footer"> <p>Copyright &copy; Your website 2014 </p></div>
+
+
+
+
+</body>
+</html>
