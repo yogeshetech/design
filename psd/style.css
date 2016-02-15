@@ -1,0 +1,753 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12 Feb, 2016, 6:41:52 PM
+    Author     : etech99
+*/
+
+
+body {
+    margin: 0 auto;
+}
+
+
+
+
+
+.container {
+ 
+    margin: 0 auto;
+    width: 80%;
+}
+
+
+#aa{
+    
+     border-right : thin solid hsl(0, 0%, 89%);
+    
+}
+
+li {
+    border-left: thin solid hsl(0, 0%, 89%);
+    font-size: 11px;
+    font-weight: bold;
+    list-style: none outside none;
+    padding-left: 19px;
+    padding-right: 19px;
+}
+
+ul {
+    display: inline-flex;
+    margin-left: -40px;
+}
+.menu {
+   
+    float: left;
+    width: 49%;
+}
+
+.menu > ul > li > a {
+    color: hsl(0, 0%, 0%);
+    text-decoration: none;
+}
+
+
+.header {
+    border-bottom: thin solid hsl(0, 0%, 89%);
+    font-family: sans-serif;
+    height: 48px;
+    width: 100%;
+}
+
+
+.sec-menu {
+    
+    float: right;
+    height: 48px;
+    padding-top: 10px;
+    width: 30%;
+}
+#arrow {
+    margin-left: -17px;
+}
+
+.clear {
+    clear: both;
+}
+
+.logo {
+    float: left;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    width: 50%;
+}
+
+
+
+
+
+
+.login {
+    float: right;
+    height: 40px;
+    margin-top: 32px;
+    width: 18%;
+}
+
+.welcome {
+    float: left;
+    margin-right: 4px;
+}
+
+
+.linl-menu > li {
+    border: medium none;
+ 
+    font-weight: normal;
+    list-style: unset;
+    padding-left: 3px;
+}
+
+
+
+.linl-menu {
+    margin-left: -41px;
+    margin-top: 6px;
+}
+
+
+.linl-menu a {
+    color: hsl(0, 0%, 0%);
+    text-decoration: none;
+}
+
+
+
+.main-menu {
+   
+    
+  
+    width: 100%;
+}
+
+
+
+.my-menu {
+    display: inline-flex;
+    margin-left: -23px;
+    margin-top: 7px;
+    padding-top: 0;
+}
+
+
+.my-menu > li {
+    border: medium none;
+    font-size: 13px;
+    font-weight: normal;
+    list-style: none outside none;
+    margin-top: 6px;
+    padding-left: 12px;
+    padding-right: 16px;
+}
+.my-menu a {
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+
+.menu-left {
+    background-color: hsl(0, 0%, 0%);
+    float: left;
+    height: 44px;
+    width: 73%;
+}
+
+.menu-right {
+    background-color: hsl(0, 100%, 50%);
+    float: right;
+    height: 44px;
+    width: 27%;
+}
+
+.cart {
+    display: inline-flex;
+    float: right;
+  
+    margin-right: 11px;
+    margin-top: 5px;
+  
+}
+
+.cart > li {
+    border: medium none;
+    font-size: 13px;
+    font-weight: normal;
+    list-style: none outside none;
+    margin-top: 6px;
+ 
+    padding-right: 7px;
+}
+
+
+.cart a {
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+
+
+
+
+.my-body {
+    background-image: url("image/slider.png");
+    background-size: cover;
+    border: thin solid hsl(0, 0%, 89%);
+    height: 350px;
+}
+
+
+
+
+.lefttext {
+   
+    float: left;
+    margin-left: 70px;
+    margin-top: 0;
+    width: 50%;
+}
+
+
+.hot {
+    color: hsl(0, 100%, 50%);
+    font-family: sans-serif;
+    font-size: 45px;
+    margin-top: 15px;
+}
+.sale {
+    font-family: sans-serif;
+    font-size: 106px;
+    margin-top: -55px;
+}
+
+
+.col {
+    background-color: hsl(0, 0%, 0%);
+    color: hsl(0, 0%, 100%);
+    font-family: sans-serif;
+    font-size: 31px;
+    margin-left: 53px;
+    margin-top: -80px;
+    width: 35%;
+}
+
+
+.year {
+    font-family: sans-serif;
+    font-size: 35px;
+    margin-left: 147px;
+    margin-top: -37px;
+}
+
+
+
+
+.view {
+    color: hsl(0, 100%, 50%);
+    font-size: 14px;
+    margin-left: 73px;
+    margin-top: -19px;
+}
+
+.view > a {
+    color: hsl(0, 100%, 50%);
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+
+.view img {
+    margin-left: 4px;
+   
+    width: 2%;
+}
+
+
+.righttext {
+    float: right;
+    margin-top: 107px;
+    width: 34%;
+}
+
+
+
+.main-div {
+   // border: thin solid hsl(0, 0%, 0%);
+   
+   
+}
+
+
+
+.main-left {
+   
+    float: left;
+    
+   
+    padding-top: 20px;
+    width: 74%;
+}
+
+.main-right {
+    
+    float: right;
+    height: 300px;
+    width: 24%;
+}
+
+
+
+.feature {
+    color: hsl(0, 100%, 50%);
+    font-family: sans-serif;
+    font-size: 21px;
+    margin-left: 10px;
+    width: 53%;
+}
+
+
+
+.box {
+    float: left;
+    height: 40%;
+    margin-left: 10px;
+    margin-right: 16px;
+    margin-top: 15px;
+    width: 21%;
+    margin-bottom: 25px
+}
+
+
+
+.box1 {
+    border: thin solid hsl(0, 0%, 73%);
+    height: 100%;
+    width: 100%;
+}
+
+
+.myimage {
+   
+    margin: 26px auto 0;
+    width: 80%;
+}
+
+
+
+.myimage > img {
+    margin-left: 16px;
+    width: 74%;
+}
+
+#hh {
+    margin-top: 38px;
+    width: 90%;
+     border-top: 0.7px dotted hsl(0, 0%, 70%);
+}
+
+
+.product-name {
+    color: hsl(0, 0%, 0%);
+    font-family: sans-serif;
+    margin-left: 15px;
+    margin-top: 0;
+}
+
+.new {
+    color: hsl(0, 100%, 50%);
+    font-family: sans-serif;
+    font-size: 21px;
+    margin-bottom: 18px;
+    margin-left: 10px;
+    width: 53%;
+}
+
+
+.new-product {
+    border: thin solid hsl(0, 0%, 84%);
+    height: 539px;
+    margin-left: 10px;
+    width: 95%;
+}
+
+.newproduct1 {
+    
+    float: left;
+    height: 500px;
+    margin-left: 17px;
+    width: 30%;
+}
+
+
+.shadow2 {
+    float: left;
+    margin-left: 2px;
+    margin-top: 30px;
+}
+
+
+
+.shadow2 > img {
+    height: 541px;
+    width: 1px;
+}
+
+.kid {
+    margin-top: 10px;
+}
+
+
+
+.kid-image {
+    border: thin solid hsl(0, 0%, 84%);
+    margin-bottom: 13px;
+    margin-left: 13px;
+    margin-top: 13px;
+    width: 85%;
+}
+.kid-image > img {
+    margin-bottom: 27px;
+    margin-left: 25px;
+    margin-top: 25px;
+    width: 67%;
+}
+.kid-main {
+  
+    font-family: sans-serif;
+    font-size: 12px;
+    margin-left: 3px;
+    width: 97%;
+}
+
+.kid-main > p {
+    margin-left: 9px;
+}
+
+
+
+.price {
+    width: 100%;
+}
+
+
+.price > p {
+    float: left;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+
+.price > img {
+    float: right;
+}
+
+
+.shad-last {
+    margin-bottom: 29px;
+    margin-left: 24px;
+    width: 98%;
+}
+
+
+.browse {
+    float: left;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-left: -78px;
+}
+
+
+
+
+.mycart {
+     background-color: hsl(356, 100%, 55%);
+    border: thin solid hsl(0, 0%, 66%);
+    height: 84px;
+    margin-top: 24px;
+    width: 93%;
+}
+
+.right-cart {
+    color: hsl(0, 0%, 100%);
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+
+.mycart > p {
+    color: hsl(0, 0%, 100%);
+    font-family: sans-serif;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+
+
+.compare {
+   background-color: hsl(0, 0%, 0%);
+    border: thin solid hsl(0, 0%, 66%);
+    height: 71px;
+    margin-top: 24px;
+    width: 93%;
+}
+
+.compare > p {
+    color: hsl(0, 0%, 100%);
+    font-family: sans-serif;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.right-compare {
+    color: hsl(0, 0%, 100%);
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 6px;
+}
+
+
+
+.best-seller {
+    border: thin solid hsl(0, 0%, 89%);
+    height: 138%;
+    margin-top: 25px;
+    width: 93%;
+}
+
+.best-Seller-head {
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+
+
+
+
+.seller-img {
+    border: thin solid hsl(0, 0%, 50%);
+    float: left;
+    height: 71px;
+    padding-top: 10px;
+    text-align: center;
+    width: 33%;
+
+}
+
+.footer {
+    border: thin solid hsl(0, 0%, 0%);
+    height: 100px;
+    width: 100%;
+    
+}
+
+
+.footer {
+    background-image: url("image/footer.png");
+    
+    height: 119px;
+    width: 100%;
+}
+
+
+.left {
+  
+    float: left;
+    width: 28%;
+}
+.mid {
+    
+    float: left;
+    width: 30%;
+}
+.right {
+   
+    float: left;
+    width: 30%;
+}
+
+
+.left-t1 {
+    color: hsl(0, 0%, 100%);
+    font-family: sans-serif;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+
+input#text2 {
+    background: none repeat scroll 0 0 hsl(38, 17%, 12%);
+    border: 1px solid hsl(0, 0%, 0%);
+    box-shadow: 0 0 5px hsl(0, 0%, 0%) inset;
+    color: hsl(0, 0%, 80%);
+    float: left;
+    outline: medium none;
+    padding: 7px 10px;
+    width: 200px;
+}
+
+
+
+button#bt2 {
+     background-color: hsl(356, 100%, 55%);
+    border: 2px none;
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
+    font-weight: bold;
+    height: 34px;
+    margin-left: 20px;
+}
+
+p#q {
+    color: hsl(0, 0%, 100%);
+    font-size: 0.8em;
+    opacity: 0.4;
+   
+}
+
+
+.cart-image {
+    float: left;
+    height: 88px;
+    margin-left: 41px;
+    margin-top: 19px;
+    position: relative;
+    z-index: 1;
+}
+
+
+.footer-gap {
+    float: left;
+    margin-left: 28px;
+    margin-top: 15px;
+}
+
+.footer-gap > img {
+    width: 3px;
+}
+
+
+
+.yellow {
+    background: radial-gradient(ellipse at center center , hsl(33, 100%, 65%) 0%, hsl(33, 100%, 59%) 34%, hsl(33, 100%, 52%) 74%) repeat scroll 0 0 hsla(0, 0%, 0%, 0);
+    box-shadow: 1px 2px 4px 0 hsla(0, 0%, 20%, 0.43);
+    height: 72px;
+    margin-left: 24px;
+    margin-top: 36px;
+    padding-top: 0;
+
+}
+
+#x {
+    font-family: sans-serif;
+    font-size: 1.3em;
+    margin-left: 118px;
+    margin-right: 12px;
+   
+}
+
+#y {
+    font-family: sans-serif;
+    font-size: 0.9em;
+    margin-left: 118px;
+    margin-top: -17px;
+}
+
+
+
+#p {
+    color: hsl(0, 0%, 100%);
+    font-family: sans-serif;
+    font-size: 1em;
+    margin-bottom: 5px;
+    margin-left: 34px;
+    margin-top: 19px;
+}
+
+
+.social a {
+    margin-left: 32px;
+    margin-right: -29px;
+    text-decoration: none;
+}
+
+
+.last {
+   
+    height: 100px;
+    text-align: center;
+    width: 100%;
+}
+
+
+.last-p > a {
+    color: hsl(0, 0%, 0%);
+    font-family: sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.copy{
+    color: hsl(0, 0%, 0%);
+    font-family: sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+
+
+.tags {
+    background-color: hsl(0, 0%, 0%);
+    border: thin solid hsl(0, 0%, 68%);
+    color: hsl(0, 0%, 100%);
+    height: 74px;
+    margin-top: 10px;
+    width: 93%;
+}
+
+
+
+.hh {
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-left: 8px;
+    margin-top: 8px;
+}
+
+
+
+.tags > p {
+    font-family: sans-serif;
+    font-size: 13px;
+    margin-left: 8px;
+    margin-top: 4px;
+    width: 90%;
+}
+
+.sec-menu > input {
+    border: thin solid hsl(0, 0%, 85%);
+    height: 25px;
+}
+
+
+.my-menu img {
+    margin-top: -5px;
+}
+
+.social {
+    margin-top: 21px;
+}
