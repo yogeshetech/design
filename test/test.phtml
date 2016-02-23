@@ -1,0 +1,116 @@
+
+
+<?php
+//Inser Data
+if (isset($_POST['submit'])) {
+    $insert = $this->insertData();
+}
+
+if (isset($_POST['update'])) {
+
+    $update = $this->updateNew();
+}
+
+// Delete Data
+$id = $this->getRequest()->getParam('id');
+if (!empty($id)) {
+    $delete = $this->deleteData($id);
+}
+
+// Fatch Data
+$model = $this->fatchData1();
+?>
+
+
+<table border='3' style='width:100%;'>
+    <tr>
+        <th>Id</th>
+        <th>Title</th>
+        <th>Content</th>
+        <th>Status</th>
+        <th>Update</th>
+        <th>Delete</th>
+    </tr>
+<?php foreach ($model as $item) { ?>
+        <tr>
+            <td> <?php print_r($item->getData('test_id')); ?></td>
+            <td> <?php print_r($item->getData('title')); ?></td>
+            <td> <?php print_r($item->getData('content')); ?></td>
+            <td><?php print_r($item->getData('status')); ?></td>
+            <td> <a href="?edit_id=<?php print_r($item->getData('test_id')); ?>">Update</a></td>
+            <td> <a href="?id=<?php print_r($item->getData('test_id')); ?>">Delete</a></td>
+
+        </tr>
+
+<?php } ?>
+</table>
+
+
+    <?php
+    $updata_Data = $this->updateData();
+    $id = $updata_Data->getData('test_id');
+    $title = $updata_Data->getData('title');
+    $filename = $updata_Data->getData('	filename');
+    $content = $updata_Data->getData('content');
+
+    $status = $updata_Data->getData('status');
+
+    $time1 = $updata_Data->getData('created_time');
+
+    $time2 = $updata_Data->getData('update_time');
+    ?>
+
+
+<br><br><br><br>
+<div class="register">
+
+    <form method="post">
+        <fieldset><legend>User Data</legend> 
+<?php echo $this->__('Title') ?>
+            <input type="text" name="title" value="<?php if (!empty($title)) {
+    echo $title;
+} ?>"><br>
+            File Name:
+            <input type="text" name="filename"  value="<?php if (!empty($filename)) {
+    echo $filename;
+} ?>"><br>
+            Contents:
+            <input type="text" name="contents" value="<?php if (!empty($content)) {
+    echo $content;
+} ?>"><br>
+            Status:
+            <input type="text" name="status" value="<?php if (!empty($status)) {
+    echo $status;
+} ?>"><br>
+
+
+
+            <input type="Submit" name="submit" value="<?php echo $this->__('submit') ?>">
+<?php if (!empty($id)) { ?>
+
+                <input type="Submit" name="update" value="<?php echo $this->__('update') ?>">
+
+
+<?php } ?> 
+
+
+
+
+
+        </fieldset>
+    </form>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
