@@ -71,29 +71,7 @@ class Yogesh_Test_Block_Test extends Mage_Core_Block_Template {
         return $updata_Data;
     }
 
-    public function updateNew() {
-
-        $edit_id = $this->getRequest()->getParam('edit_id');
-        $data = array(
-            "title" => $_POST['title'],
-            "filename" => $_POST['filename'],
-            "content" => $_POST['contents'],
-            "status" => $_POST['status'],
-            "created_time " => $_POST['time1'],
-            "update_time " => $_POST['time2']
-        );
-        $model = Mage::getModel('test/test')->load($edit_id)->addData($data);
-        try {
-            $model->setId($edit_id)->save();
-            echo "Data updated successfully.";
-            $url = 'http://127.0.0.1/etechmagento/index.php/test';
-            Mage::app()->getFrontController()->getResponse()->setRedirect($url);
-        } catch (Exception $e) {
-            echo $e->getMessage();
-            $url = 'http://127.0.0.1/etechmagento/index.php/test';
-            Mage::app()->getFrontController()->getResponse()->setRedirect($url);
-        }
-    }
+   
 
 }
 

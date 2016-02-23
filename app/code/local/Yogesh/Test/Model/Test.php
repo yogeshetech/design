@@ -21,6 +21,12 @@ class Yogesh_Test_Model_Test extends Mage_Core_Model_Abstract
      // $data= $this->getCollection($data);
        return  $model;
    }
+   
+   
+   
+    public function updateData($data){
+       return $this->setId($edit_id)->addData($data)->save();
+   }
     
 }
 
