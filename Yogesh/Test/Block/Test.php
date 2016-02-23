@@ -6,7 +6,7 @@ class Yogesh_Test_Block_Test extends Mage_Core_Block_Template {
         return parent::_prepareLayout();
     }
 
-     public function fatchData1()     
+     public function fatchData()     
       { 
          
         //$model= $this->fatchData();
@@ -19,7 +19,7 @@ class Yogesh_Test_Block_Test extends Mage_Core_Block_Template {
     //  }
 
 
-
+/*
     public function deleteData() {
         $id = $this->getRequest()->getParam('id');
         if (!empty($id)) {
@@ -59,6 +59,9 @@ class Yogesh_Test_Block_Test extends Mage_Core_Block_Template {
             Mage::app()->getFrontController()->getResponse()->setRedirect($url);
         }
     }
+
+*/
+
 
     public function updateData() {
 
