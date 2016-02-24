@@ -49,7 +49,7 @@ class Excellence_Newtest_IndexController extends Mage_Core_Controller_Front_Acti
             $model = Mage::getModel('newtest/newtest')->deleteData($id);
             try {
                
-                echo "Data deleted successfully.";
+                Mage::getSingleton('newtest/newtest')->addSuccess(Mage::helper('contacts')->__('Selected row deleted'));
                 $this->_redirect('newtest');
             } catch (Exception $e) {
                 echo $e->getMessage();
@@ -69,7 +69,7 @@ class Excellence_Newtest_IndexController extends Mage_Core_Controller_Front_Acti
 
             try {
                
-                echo "Data inserted successfully";
+               Mage::getSingleton('newtest/newtest')->addSuccess(Mage::helper('contacts')->__('Data Inserted Succesfully.'));
                 $this->_redirect('newtest');
             } catch (Exception $e) {
                 echo $e->getMessage();
@@ -87,7 +87,7 @@ class Excellence_Newtest_IndexController extends Mage_Core_Controller_Front_Acti
         if (!empty($post['title'])) {
             $model = Mage::getModel('newtest/newtest')->myupdateData($post, $edit_id);
             try {
-                echo "Data Update successfully";
+                 Mage::getSingleton('newtest/newtest')->addSuccess(Mage::helper('contacts')->__('Data Updated.'));
                 $this->_redirect('newtest');
             } catch (Exception $e) {
                 echo $e->getMessage();
@@ -97,3 +97,4 @@ class Excellence_Newtest_IndexController extends Mage_Core_Controller_Front_Acti
     }
 
 }
+
