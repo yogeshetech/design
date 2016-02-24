@@ -8,15 +8,13 @@ class Yogesh_Test_Block_Test extends Mage_Core_Block_Template {
 
      public function fatchData()     
       { 
-         
-        //$model= $this->fatchData();
-          $model = Mage::getModel('test/test')->getCollection();
-        return $model;
+          $model = Mage::getModel('test/test')->myData();
+        
+           return   $model;
+        
      }
      
-    //	$model = Mage::getModel('test/test')->getCollection();
-    //     return $model;
-    //  }
+   
 
 
 /*
@@ -63,14 +61,7 @@ class Yogesh_Test_Block_Test extends Mage_Core_Block_Template {
 */
 
 
-    public function updateData() {
-
-        $edit_id = $this->getRequest()->getParam('edit_id');
-        $updata_Data = Mage::getModel('test/test')->load($edit_id);
-
-        return $updata_Data;
-    }
-
+ 
    
 
 }

@@ -5,7 +5,7 @@ class Yogesh_Test_IndexController extends Mage_Core_Controller_Front_Action {
     public function indexAction() {
         
       
-        
+     //$model = Mage::getModel('test/test')->myData();
         
       
       //Insert Data  
@@ -67,33 +67,15 @@ class Yogesh_Test_IndexController extends Mage_Core_Controller_Front_Action {
     }
               
     */    
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+      
         $this->loadLayout();
         $this->renderLayout();
         
    
-        
-        
-        
-        
-        
-        
-        
-        
-        
         
     }
 
         
 
 }
+

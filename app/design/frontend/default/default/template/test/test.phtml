@@ -1,24 +1,8 @@
 
 
 <?php
-//Inser Data
-//if (isset($_POST['submit'])) {
-//  $insert = $this->insertData();
-//}
 
-//if (isset($_POST['update'])) {
-
-   // $update = $this->updateNew();
-//}
-
-// Delete Data
-//$id = $this->getRequest()->getParam('id');
-//if (!empty($id)) {
-    //$delete = $this->deleteData($id);
-//}
-
-// Fatch Data
-$model = $this->fatchData();
+$data = $this->fatchData();
 ?>
 
 
@@ -31,7 +15,7 @@ $model = $this->fatchData();
         <th>Update</th>
         <th>Delete</th>
     </tr>
-    <?php foreach ($model as $item) { ?>
+<?php foreach ($data as $item) { ?>
         <tr>
             <td> <?php print_r($item->getData('test_id')); ?></td>
             <td> <?php print_r($item->getData('title')); ?></td>
@@ -42,23 +26,8 @@ $model = $this->fatchData();
 
         </tr>
 
-    <?php } ?>
+<?php } ?>
 </table>
-
-
-<?php
-$updata_Data = $this->updateData();
-$id = $updata_Data->getData('test_id');
-$title = $updata_Data->getData('title');
-$filename = $updata_Data->getData('	filename');
-$content = $updata_Data->getData('content');
-
-$status = $updata_Data->getData('status');
-
-$time1 = $updata_Data->getData('created_time');
-
-$time2 = $updata_Data->getData('update_time');
-?>
 
 
 <br><br><br><br>
@@ -66,12 +35,12 @@ $time2 = $updata_Data->getData('update_time');
 
     <form method="post"action="" class="scaffold-form">
         <fieldset><legend>User Data</legend> 
-            <?php echo $this->__('Title') ?>
+<?php echo $this->__('Title') ?>
             <input type="text" name="title" value="<?php
-            if (!empty($title)) {
-                echo $title;
-            }
-            ?>"><br>
+if (!empty($title)) {
+    echo $title;
+}
+?>"><br>
             File Name:
             <input type="text" name="filename"  value="<?php
             if (!empty($filename)) {
@@ -85,6 +54,8 @@ $time2 = $updata_Data->getData('update_time');
             }
             ?>"><br>
             Status:
+
+
             <input type="text" name="status" value="<?php
             if (!empty($status)) {
                 echo $status;
@@ -94,16 +65,17 @@ $time2 = $updata_Data->getData('update_time');
 
 
             <input type="Submit" name="submit" value="<?php echo $this->__('submit') ?>">
-            <?php if (!empty($id)) { ?>
+<?php if (!empty($id)) { ?>
 
                 <input type="Submit" name="update" value="<?php echo $this->__('update') ?>">
 
 
-            <?php } ?> 
+<?php } ?> 
 
         </fieldset>
     </form>
 </div>
+
 
 
 
