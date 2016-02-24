@@ -40,7 +40,7 @@ class Excellence_Newtest_IndexController extends Mage_Core_Controller_Front_Acti
           Mage::register('newtest', $newtest);
          */
 
-     
+
         $this->loadLayout();
         $this->renderLayout();
 
@@ -48,8 +48,10 @@ class Excellence_Newtest_IndexController extends Mage_Core_Controller_Front_Acti
         if (!empty($id)) {
             $model = Mage::getModel('newtest/newtest')->deleteData($id);
             try {
-               
-                Mage::getSingleton('newtest/newtest')->addSuccess(Mage::helper('newtest')->__('Selected row deleted'));
+
+
+                Mage::getSingleton('core/session')->addError("One row Deleted");
+
                 $this->_redirect('newtest');
             } catch (Exception $e) {
                 echo $e->getMessage();
@@ -68,8 +70,8 @@ class Excellence_Newtest_IndexController extends Mage_Core_Controller_Front_Acti
             $model = Mage::getModel('newtest/newtest')->insertData($post);
 
             try {
-               
-               Mage::getSingleton('newtest/newtest')->addSuccess(Mage::helper('newtest')->__('Data Inserted Succesfully.'));
+
+                Mage::getSingleton('core/session')->addError("One row Insertd");
                 $this->_redirect('newtest');
             } catch (Exception $e) {
                 echo $e->getMessage();
@@ -87,7 +89,7 @@ class Excellence_Newtest_IndexController extends Mage_Core_Controller_Front_Acti
         if (!empty($post['title'])) {
             $model = Mage::getModel('newtest/newtest')->myupdateData($post, $edit_id);
             try {
-                 Mage::getSingleton('newtest/newtest')->addSuccess(Mage::helper('newtest')->__('Data Updated.'));
+                Mage::getSingleton('core/session')->addError("One row Updates");
                 $this->_redirect('newtest');
             } catch (Exception $e) {
                 echo $e->getMessage();
