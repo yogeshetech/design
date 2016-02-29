@@ -1,0 +1,23 @@
+   
+<div class="fieldset">
+    <h2 class="legend">User Information</h2>
+    <fieldset><legend>User Data</legend> 
+        <form method="post" action="<?php echo $this->getFormAction(); ?>" class="scaffold-form">
+
+            <label for="comment" class="required"><em>*</em><?php echo Mage::helper('contacts')->__('User Name') ?></label>
+
+            <input type="text" name="user_name"   value="" class="input-text required-entry"><br>
+            <label for="comment" class="required"><em>*</em><?php echo Mage::helper('contacts')->__('First Name') ?></label>
+
+            <input type="text" name="first_name"  value="" class="input-text required-entry"><br>
+
+            <label for="comment" class="required"><em>*</em><?php echo Mage::helper('contacts')->__('Last Name') ?></label>
+
+            <input type="text" name="last_name" value="" class="input-text required-entry"><br>
+
+            <input type="Submit" name="submit"  value="<?php echo $this->__('Submit'); ?>">
+            <button class="button" title="Submit" type="submit">
+        </form>
+    </fieldset>
+</div>
+
